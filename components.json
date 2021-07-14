@@ -1,3 +1,4 @@
 {
-    "vueCard": "@/components/vueCard/index"
+    "vueCard": "@/components/vueCard/index",
+    "vueSearch": "@/components/vueSearch/index"
 }

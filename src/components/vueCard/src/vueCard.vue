@@ -71,13 +71,14 @@ $anitme: 0.5s;
       opacity: 0;
       width: 200px;
       height: 200px;
-      transition: 0.4s 0.4s;
+      transition: 0.4s;
     }
     .content-left {
       width: 50%;
       height: 100%;
       padding: 10px 25px;
-      transition: $anitme $anitme;
+      transition: $anitme;
+      box-sizing: border-box;
       @include udCenter;
       .content-title {
         font-size: $primary-h1--size;
@@ -95,7 +96,7 @@ $anitme: 0.5s;
       right: 0;
       border-radius: 50px;
       transform: rotate(45deg);
-      transition: $anitme $anitme;
+      transition: $anitme;
     }
     .cylinder1 {
       background-color: #e1bee7;
